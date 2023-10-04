@@ -6,14 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>STUDIO</title>
 
+  <!-- GOOGLE STUFF  -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-    integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- CSS NORMALIZE  -->
+  <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css />
+
+  <!-- CSS  -->
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -27,9 +30,10 @@
 
       <!-- LOGO -->
 
-
-      <a href=""><span class="logo-web">WEB</span><span class="logo-studio">STUDIO</span></a>
-      <!-- MENU NAV -->
+      <div class="section-topline-logo">
+        <a href=""><span class="logo-web">WEB</span><span class="logo-studio">STUDIO</span></a>
+        <!-- MENU NAV -->
+      </div>
 
       <nav>
         <ul class="menu">
@@ -42,8 +46,8 @@
       <!-- CONTACT -->
 
       <ul class="contacts">
-        <li><a href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a></li>
-        <li><a href="telno:+110001111111" target="_blank">+11 (000) 111-11-11</a></li>
+        <li class="mail"><a href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a></li>
+        <li class="telno"><a href="telno:+110001111111" target="_blank">+11 (000) 111-11-11</a></li>
       </ul>
     </section>
   </header>
@@ -53,8 +57,14 @@
     <!-- HERO IMAGE -->
 
     <section class="hero-image">
-      <h1>Effective Solutions<br>for Your Business</h1>
-      <button type="button">Order Service</button>
+      <div class="hero-image flexbox">
+        <h1>Effective Solutions
+          <!-- <br> -->
+          for Your Business
+        </h1>
+
+        <button type="button">Order Service</button>
+      </div>
     </section>
 
     <!-- SECTION 1 -->
